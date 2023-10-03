@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #adc3f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+     display: flex; 
+    /* max-width: 600px; */
+    /* margin: 0 auto; */
+    padding: 20px; 
+    /* border-radius: 8px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+ h1 {
+    padding: 8px 0px 11px 207px; ;
+    margin: auto;
+ font-size: 1.2rem;
+}
+#navbar{
+    height: 40px;
+    width: 100%;
+    background: rgb(244, 242, 239);
+
+}
+
+.add-task {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 17px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 15px 175px;
+}
+
+input[type="text"],
+input[type="datetime-local"],
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.task-list {
+    margin-top: 20px;
+    /* border: 1px solid white; */
+}
+.head{
+    display: flex;
+    height: 46px;
+    width: 577px;
+}
+.head h2{
+    padding-right: 188px;
+    font-size: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: ghostwhite;
+}
+
+li span {
+    font-weight: bold;
+}
+li span #third{
+    position: absolute;
+    right: 290px;
+    width: 100px;
+}
+
+li button {
+    position: absolute;
+    width: 76px;
+    right: 160px;
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
